@@ -1,12 +1,21 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Hello Blo!</title>
 
-</head>
-<body>
-<h1>Blo Zindabad!</h1>
-</body>
-</html>
+<h1>Enter Your BLO Password</h1>
+
+<form action = "/registration" method = "POST">
+    <label for = "username">Username:</label>
+    <input type ="text" >
+    <br><br>
+    <label for = "password">Password: </label>
+    <input type ="password" >
+    <br><br>
+    <input type = "submit">
+
+    <br><br><br>
+    <input type = "radio" name = "BLO" value = "blo" />
+    <label for = "BLO">I AM A BLO</label><br>
+    <input type = "radio" name = "BLOd" value = "notblo" />
+    <label for = "BLOd">I AM NOT A BLO</label>
+    
+
+</form>
